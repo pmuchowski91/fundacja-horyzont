@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from '@/components/Page'
-import AboutUs from '@/components/AboutUs/intex'
+import AboutUs from '@/components/AboutUs'
 
 const AboutUsPage: React.FC = () => (
   <Page title="O nas">
