@@ -13,10 +13,10 @@ interface NavLinkType {
 }
 
 const navLinks: NavLinkType[] = [
-  { name: 'Kim jesteśmy', path: '/who-we-are' },
-  { name: 'O nas', path: '/about-us' },
-  { name: 'Czym się zajmujemy', path: '/what-we-do' },
-  { name: 'Kontakt', path: '/contact' },
+  { name: 'Kim jesteśmy', path: '#who-we-are' },
+  { name: 'O nas', path: '#about-us' },
+  { name: 'Czym się zajmujemy', path: '#what-we-do' },
+  { name: 'Kontakt', path: '#contact' },
 ]
 
 export const Navbar = () => {

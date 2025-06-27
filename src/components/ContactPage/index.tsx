@@ -3,7 +3,7 @@ import { FacebookIcon, GithubIcon, InstagramIcon, MailIcon, PhoneIcon } from 'lu
 import Page from '@/components/Page'
 
 const ContactPage: React.FC = () => (
-  <Page title="Zostań z nami w kontakcie">
+  <Page title="Zostań z nami w kontakcie" id="contact">
     <div className="flex flex-col items-center justify-center gap-2">
       <div className="flex items-center justify-center">
         <div className="px-4">

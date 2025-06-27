@@ -3,7 +3,7 @@ import Page from '@/components/Page'
 import AboutUs from '@/components/AboutUs'
 
 const AboutUsPage: React.FC = () => (
-  <Page title="O nas">
+  <Page title="O nas" id="about-us">
     <div className="flex flex-col">
       <AboutUs name="Szymon Makyła" imageSrc="/szymon.png" circleBorderPercent={75}>
         <p>

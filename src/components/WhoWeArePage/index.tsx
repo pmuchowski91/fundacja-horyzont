@@ -1,8 +1,8 @@
 import React from 'react'
 import Page from '@/components/Page'
 
-const WhatWeDoPage: React.FC = () => (
-  <Page title="Czym się zajmujemy">
+const WhoWeArePage: React.FC = () => (
+  <Page title="Kim jesteśmy" id="who-we-are">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -13,4 +13,4 @@ const WhatWeDoPage: React.FC = () => (
   </Page>
 )
 
-export default WhatWeDoPage
+export default WhoWeArePage
